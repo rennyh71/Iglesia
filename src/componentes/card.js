@@ -24,12 +24,12 @@ class card extends React.Component {
     return (
       <div style={this.state}>
         <div className={style.cardImg}>
-          <img alt="imagen"></img>
+          <img alt="miniatura"></img>
         </div>
         <div className={style.cardContent}>
-          <h3> ANUNCIOS </h3>
-          <h1> h1</h1>
-          <h4> h4 </h4>
+          <h1> ANUNCIOS </h1>
+          <h3> date</h3>
+          <h4> fecha </h4>
         </div>
       </div>
     );
