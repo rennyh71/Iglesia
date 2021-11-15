@@ -6,7 +6,12 @@ export default class home extends React.Component {
   render() {
     return (
       <div className={style.container}>
-        <header className={style.header}> cabecera</header>
+        <header className={style.header}>
+          <i> Instituto Biblico</i>
+          <i> Predicas</i>
+          <i> Jovenes En Movimiento</i>
+          <i> Sobre Nosotros</i>
+        </header>
         <div className={style.portada}> portada</div>
         <main className={style.contenido}>
           <Noticias />
