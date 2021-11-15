@@ -24,7 +24,10 @@ class card extends React.Component {
     return (
       <div style={this.state}>
         <div className={style.cardImg}>
-          <img alt="miniatura"></img>
+          <img
+            className={style.imagen}
+            src="https://source.unsplash.com/random"
+          ></img>
         </div>
         <div className={style.cardContent}>
           <h1> ANUNCIOS </h1>

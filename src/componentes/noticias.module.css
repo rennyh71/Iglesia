@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.containerCenter {
+  position: relative;
+  width: 98%;
+  height: 98%;
+}
+.img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.titulo {
+  position: absolute;
+  margin: 20px;
+  top: 70%;
+}
+
+.h3 {
+  position: absolute;
+  margin: 20px;
+  top: 80%;
+}

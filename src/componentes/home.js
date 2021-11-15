@@ -1,15 +1,16 @@
 import React from "react";
 import * as style from "../componentes/home.module.css";
 import Card from "../componentes/card";
+import Noticias from "../componentes/noticias";
 export default class home extends React.Component {
   render() {
     return (
       <div className={style.container}>
         <header className={style.header}> cabecera</header>
         <div className={style.portada}> portada</div>
-        <div className={style.menu}> menu</div>
-        <div className={style.carrusel}> carrusel</div>
-        <main className={style.contenido}></main>
+        <main className={style.contenido}>
+          <Noticias />
+        </main>
         <aside className={style.sidebar}>sidebar</aside>
         <div className={style.destacado}> historia destacada</div>
         <section className={style.videos}></section>
