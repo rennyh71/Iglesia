@@ -6,7 +6,7 @@ class card extends React.Component {
     super(props);
     this.state = {
       display: "flex",
-      flexDirection: "row",
+      flexDirection: "columm",
       margin: "0px 0px 17px 0px",
       backgroundColor: "blanchedalmond",
       boxShadow: "3px 3px 3px rgb(0, 0, 0, 0.5 )",

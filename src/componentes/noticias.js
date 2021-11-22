@@ -5,9 +5,6 @@ const noticias = () => {
   return (
     <div className={style.container}>
       <div className={style.containerCenter}>
-        <Link her>
-        
-        </Link>
         <img
           className={style.img}
           src="https://source.unsplash.com/random"
