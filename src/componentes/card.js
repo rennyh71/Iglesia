@@ -1,5 +1,6 @@
 import React from "react";
 import * as style from "../componentes/card.module.css";
+import imgCard from "../images/imgCard.jpg";
 
 class card extends React.Component {
   constructor(props) {
@@ -24,15 +25,12 @@ class card extends React.Component {
     return (
       <div style={this.state}>
         <div className={style.cardImg}>
-          <img
-            className={style.imagen}
-            src="https://source.unsplash.com/random"
-          ></img>
+          <img className={style.imagen} alt="ALT" src={imgCard}></img>
         </div>
         <div className={style.cardContent}>
-          <h1> ANUNCIOS </h1>
-          <h3> date</h3>
-          <h4> fecha </h4>
+          <h1> PACTO EN FAMILIA </h1>
+          <h3> APARTIR DE</h3>
+          <h4> 28/11/2021 </h4>
         </div>
       </div>
     );

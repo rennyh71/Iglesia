@@ -52,11 +52,19 @@
 }
 
 .sidebar {
-  background-color: blanchedalmond;
+  background-color: white;
   width: 100%;
   min-width: 20vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-area: sidebar;
+}
+.sidebar > img {
+  width: 80%;
+  height: 400px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.5);
 }
 
 .videos {
@@ -68,14 +76,29 @@
 }
 
 .contentCard {
+  width: 100%;
   grid-area: contentCard;
 }
 
 .footer {
-  background-color: rgb(37, 35, 32);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  height: 60vh;
+  height: 45vh;
   grid-area: footer;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 16px;
+  margin: 20px;
+}
+.footerDiv > a {
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 768px) {
