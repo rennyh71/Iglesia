@@ -6,25 +6,23 @@ const about = () => {
     <div className={style.container}>
       <Nav />
       <div className={style.noti}>
-        <h1>Un Refugio Social</h1>
-        <h2>Llevando palabra de vida y esperanza </h2>
+        <h1>Vision</h1>
+        <hr />
         <p>
-          Así alumbre vuestra luz delante de los hombres, para que vean vuestras
-          buenas obras y glorifiquen vuestro Padre que está en los cielos. Mateo
-          5; I6{" "}
+          Yo los traeré a mi santo monte, y los alegraré en mi casa de oración.
+          Sus holocaustos y sus sacrificios serán aceptos sobre mi altar; porque
+          mi casa será llamada casa de oración para todos los pueblos.
         </p>
-        <img src="https://source.unsplash.com/random" alt="i"></img>
-        <label>
-          Brindar un mano amiga en este tiempo para muchos es complicado si se
-          hace solo, pero cundo se forma un equipo las posibilidades son
-          infinitas y más sin son respaldadas por Dios La célula del sector
-          Guiparo junto con la iglesia son los encargados de regalar una palabra
-          de aliento y sonrisa a los niños del campito. Entrega de comidas,
-          obras de teatro, cortes de cabellos para niños y peinados para niñas,
-          son de las tantas actividades que realizan bendiciendo a más de 60
-          personas entre niños y adultos, mostrando el amor por el prójimo y el
-          amor insuperable de Dios por ellos.
-        </label>
+        <hr />
+        <h2>
+          Ser una Iglesia de Oración e Intercesión, que de cobertura en amor, a
+          las familias, comunidades y ciudades de las naciones, a través del
+          trabajo de un equipo legislador, que brinde un espacio de Refugio,
+          para la restauración del afligido, dejando libre al oprimido,
+          rompiendo los yugos y guiando a la luz de Cristo a todo aquel que no
+          le conoce, para ser presentados en el gozo del Señor como ofrenda
+          acepta en el Amado.
+        </h2>
       </div>
     </div>
   );

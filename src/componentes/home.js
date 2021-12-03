@@ -16,7 +16,6 @@ export default class home extends React.Component {
           <Noticias />
         </main>
         <aside className={style.sidebar}>
-          <h1>Infografias</h1>
           <img src={info3}></img>
         </aside>
         <section className={style.videos}>

@@ -5,17 +5,27 @@ const nav = () => {
   return (
     <div className={style.navbar}>
       <div className={style.navbar_in}>
-        <Link className={style.link} to="/index">
+        <Link className={style.link} to="/">
           Home
         </Link>
-        <Link className={style.link} to="/index">
+        <Link
+          className={style.link}
+          to="https://www.youtube.com/"
+          target="_blank"
+        >
           Predicaciones
         </Link>
-        <Link className={style.link} to="/about">
+
+        <Link
+          className={style.link}
+          to="https://www.facebook.com/jov.movim"
+          target="_blank"
+        >
           Jovenes
         </Link>
+
         <Link className={style.link} to="/about">
-          Acerca De Nosotros
+          Acerca De
         </Link>
       </div>
     </div>
