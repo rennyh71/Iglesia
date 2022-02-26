@@ -15,37 +15,8 @@ export default class home extends React.Component {
         <main className={style.contenido}>
           <Noticias />
         </main>
-        <aside className={style.sidebar}>
-          <img src={info3}></img>
-        </aside>
         <section className={style.videos}>
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/MsbFAK4VSWo"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/iNFxxQgFo5I"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/yeTpaGa-rRQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <h1>Presentacion</h1>
         </section>
         <section className={style.contentCard}>
           <Card />
