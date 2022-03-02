@@ -16,7 +16,16 @@ export default class home extends React.Component {
           <div className={style.opacidad}>
             <main className={style.contenido}>{<Noticias />}</main>
             <section className={style.videos}>
-              <h1>Presentacion</h1>
+              <h1>Bienvenida</h1>
+              <iframe
+                width="80%"
+                height="100%"
+                src="https://www.youtube.com/embed/HrjcbojyBsk"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </section>
             <section className={style.contentCard}>
               <Card />

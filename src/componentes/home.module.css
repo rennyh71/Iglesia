@@ -28,7 +28,6 @@
   background-attachment: fixed;
   background-position: center;
   grid-area: portada;
-  box-shadow: 5px 5px 10px white;
 }
 .contenido {
   width: 80%;
@@ -61,7 +60,7 @@
   height: 75vh;
   background-color: white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 10px;
   grid-area: videos;
   max-height: 100vh;
