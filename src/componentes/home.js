@@ -14,19 +14,20 @@ export default class home extends React.Component {
         <div className={style.portada}></div>
         <div className={style.fondo}>
           <div className={style.opacidad}>
-            <main className={style.contenido}>{<Noticias />}</main>
             <section className={style.videos}>
               <h1>Bienvenida</h1>
               <iframe
                 width="80%"
                 height="100%"
-                src="https://www.youtube.com/embed/HrjcbojyBsk"
+                src="https://www.youtube.com/embed/ST1X01R5mfQ"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
             </section>
+            <main className={style.contenido}>{<Noticias />}</main>
+
             <section className={style.contentCard}>
               <Card />
               <Card reverse={true} />
