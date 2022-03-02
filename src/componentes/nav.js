@@ -6,7 +6,6 @@ import { SiGooglemaps } from "react-icons/si";
 import { BsBook } from "react-icons/bs";
 import { FaHandsHelping, FaChild } from "react-icons/fa";
 import { IoMdInformationCircle } from "react-icons/io";
-
 const nav = () => {
   return (
     <div className={style.navbar}>
@@ -23,7 +22,7 @@ const nav = () => {
           to="https://www.youtube.com/"
           target="_blank"
         >
-          Anucios
+          Anuncios
         </Link>
         <Link
           className={style.link}
