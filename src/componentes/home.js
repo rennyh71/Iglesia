@@ -12,15 +12,18 @@ export default class home extends React.Component {
           <Nav />
         </header>
         <div className={style.portada}></div>
-        <main className={style.contenido}>{}</main>
         <div className={style.fondo}>
-          <section className={style.videos}>
-            <h1>Presentacion</h1>
-          </section>
-          <section className={style.contentCard}>
-            <Card />
-            <Card reverse={true} />
-          </section>
+          <div className={style.opacidad}>
+            <main className={style.contenido}>{<Noticias />}</main>
+            <section className={style.videos}>
+              <h1>Presentacion</h1>
+            </section>
+            <section className={style.contentCard}>
+              <Card />
+              <Card reverse={true} />
+            </section>
+          </div>
+
           <footer className={style.footer}>
             <div className={style.footerDiv}>
               <a href="">HELLO@HELLOCREATIVIDAD.COM</a>
