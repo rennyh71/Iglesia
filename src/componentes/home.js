@@ -16,15 +16,7 @@ export default class home extends React.Component {
           <div className={style.opacidad}>
             <section className={style.videos}>
               <h1>Bienvenida</h1>
-              <iframe
-                width="80%"
-                height="100%"
-                src="https://www.youtube.com/embed/HrjcbojyBsk"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+             <iframe width="80%" height="100%" src="https://www.youtube.com/embed/T6CKM-uH7wE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <main className={style.contenido}>{<Noticias />}</main>
 
