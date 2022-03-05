@@ -22,7 +22,7 @@
 
 .portada {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-image: url(../images/1.png);
   background-size: cover;
   background-attachment: fixed;
@@ -30,10 +30,10 @@
   grid-area: portada;
 }
 .contenido {
+  margin-top: 5%;
   width: 80%;
   height: auto;
   grid-area: contenido;
-  margin-top: 10%;
 }
 
 .fondo {
@@ -41,6 +41,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   grid-area: fondo;
 }
 
@@ -55,8 +56,8 @@
 }
 
 .videos {
-  margin-top: 10%;
-  width: 100%;
+  margin-top: 50%;
+  width: 80%;
   height: 75vh;
   background-color: white;
   display: flex;
@@ -75,9 +76,11 @@
 }
 
 .footer {
+  border-top: solid darkgray;
+  margin-top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
   height: 25vh;
   grid-area: footer;
