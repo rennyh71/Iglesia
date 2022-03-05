@@ -19,10 +19,9 @@
   height: auto;
   grid-area: header;
 }
-
 .portada {
-  width: 100%;
-  height: 90vh;
+  width: 100vw;
+  height: 100vh;
   background-image: url(../images/1.png);
   background-size: cover;
   background-attachment: fixed;
@@ -58,26 +57,26 @@
 .videos {
   margin-top: 50%;
   width: 80%;
-  height: 75vh;
+  height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
   gap: 10px;
   grid-area: videos;
   max-height: 100vh;
-  box-shadow: 5px 5px 5px white;
 }
 .contentCard {
-  margin-top: 10%;
+  margin-top: 5%;
   display: grid;
-  width: 100%;
+  width: 80%;
   height: auto;
   grid-area: contentCard;
+  gap: 20px 0px;
 }
 
 .footer {
   border-top: solid darkgray;
-  margin-top: 50%;
+  margin-top: 25%;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   color: white;

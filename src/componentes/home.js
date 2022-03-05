@@ -11,11 +11,12 @@ export default class home extends React.Component {
         <header className={style.header}>
           <Nav />
         </header>
+
         <div className={style.portada}></div>
+
         <div className={style.fondo}>
           <div className={style.opacidad}>
             <section className={style.videos}>
-              <h1>Bienvenida</h1>
               <iframe
                 width="100%"
                 height="100%"
@@ -32,7 +33,6 @@ export default class home extends React.Component {
               <Card />
               <Card reverse={true} />
             </section>
-            <hr />
             <footer className={style.footer}>
               <div className={style.footerDiv}>
                 <a href="">HELLO@HELLOCREATIVIDAD.COM</a>
