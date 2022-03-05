@@ -3,7 +3,9 @@ import * as style from "../componentes/home.module.css";
 import Card from "../componentes/card";
 import Noticias from "../componentes/noticias";
 import Nav from "../componentes/nav";
-
+import anuncios from "../images/anuncios.png";
+import info3 from "../images/info3.jpg";
+import plan from "../images/plan.png";
 export default class home extends React.Component {
   render() {
     return (
@@ -26,6 +28,17 @@ export default class home extends React.Component {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
+            </section>
+            <section className={style.tresColum}>
+              <div className={style.anuncios}>
+                <img src={anuncios}></img>
+              </div>
+              <div className={style.infografia}>
+                <img src={info3}></img>
+              </div>
+              <div className={style.plan}>
+                <img src={plan}></img>
+              </div>
             </section>
             <main className={style.contenido}>{<Noticias />}</main>
 

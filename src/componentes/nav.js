@@ -6,6 +6,9 @@ import { SiGooglemaps } from "react-icons/si";
 import { BsBook } from "react-icons/bs";
 import { FaHandsHelping, FaChild } from "react-icons/fa";
 import { IoMdInformationCircle } from "react-icons/io";
+import { co } from "../images/CO.svg";
+import { jm } from "../images/JM.svg";
+
 const nav = () => {
   return (
     <div className={style.navbar}>
@@ -29,7 +32,7 @@ const nav = () => {
           to="https://www.facebook.com/jov.movim"
           target="_blank"
         >
-          <FaChild />
+          <img src={jm}></img>
           Jovenes
         </Link>
         <Link
