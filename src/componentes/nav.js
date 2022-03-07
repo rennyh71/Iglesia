@@ -33,14 +33,14 @@ const nav = () => {
           target="_blank"
         >
           <img src={jm}></img>
-          Jovenes
+          Jóvenes
         </Link>
         <Link
           className={style.link}
           to="https://www.instagram.com/esperanzaenjesucristo.ve/"
           target="_blank"
         >
-          Accion Social
+          Acción Social
         </Link>
         <Link
           className={style.link}
@@ -62,7 +62,7 @@ const nav = () => {
           to="https://www.google.com/maps/place/Casa+de+Oraci%C3%B3n+Refugio+de+Jehov%C3%A1/@8.3476883,-62.6882569,17z/data=!3m1!4b1!4m5!3m4!1s0x8dcbf062de7b3cdb:0x4e9185a4ad725ff!8m2!3d8.3476954!4d-62.6860723"
           target="_blank"
         >
-          ubicacion
+          Ubicación
           <SiGooglemaps />
         </Link>
       </div>
