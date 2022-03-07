@@ -40,7 +40,6 @@ const nav = () => {
           to="https://www.instagram.com/esperanzaenjesucristo.ve/"
           target="_blank"
         >
-          <FaHandsHelping />
           Accion Social
         </Link>
         <Link
@@ -48,7 +47,6 @@ const nav = () => {
           to="https://app.box.com/v/ClasesdeDoctrinaRefugio"
           target="_blank"
         >
-          <BsBook />
           Clases de Doctrina
         </Link>
         <Link
@@ -56,7 +54,6 @@ const nav = () => {
           to="https://www.facebook.com/CASADEORACIONRJGUAYANA"
           target="_blank"
         >
-          <IoMdInformationCircle />
           Quienes Somos
         </Link>
 
@@ -65,8 +62,8 @@ const nav = () => {
           to="https://www.google.com/maps/place/Casa+de+Oraci%C3%B3n+Refugio+de+Jehov%C3%A1/@8.3476883,-62.6882569,17z/data=!3m1!4b1!4m5!3m4!1s0x8dcbf062de7b3cdb:0x4e9185a4ad725ff!8m2!3d8.3476954!4d-62.6860723"
           target="_blank"
         >
-          <SiGooglemaps />
           ubicacion
+          <SiGooglemaps />
         </Link>
       </div>
     </div>

@@ -31,42 +31,36 @@ export default class home extends React.Component {
             </section>
             <section className={style.tresColum}>
               <div className={style.anuncios}>
-                <img src={anuncios}></img>
-              </div>
-              <div className={style.infografia}>
-                <img src={info3}></img>
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/UL8zX6TLGSc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
               <div className={style.plan}>
-                <img src={plan}></img>
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/Ye6xxnxWlQ0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
             </section>
             <main className={style.contenido}>{<Noticias />}</main>
 
-            <section className={style.contentCard}>
-              <Card />
-              <Card reverse={true} />
-            </section>
+            <section className={style.contentCard}></section>
             <footer className={style.footer}>
-              <div className={style.footerDiv}>
-                <a href="">HELLO@HELLOCREATIVIDAD.COM</a>
-                <a href="">Cookies</a>
-                <a href="">Política de privacidad</a>
-                <a href="">Aviso legal</a>
-              </div>
-              <div className={style.footerDiv}>
-                <a href="">SÍGUENOS EN</a>
-                <a href="">Facebook</a>
-                <a href="">Instagram</a>
-                <a href="">Twitter</a>
-              </div>
-              <div className={style.footerDiv}>
-                <a href="">HELLO CREATIVIDAD ES UNA MARCA REGISTRADA © 2021.</a>
-                <a href="">hellocreatividad.com</a>
-                <a href="">Diseño y desarrollo por Blavet</a>
-              </div>
-              <div className={style.footerDiv}>
-                <a href="">GRACIAS POR SU VISITA. ¡HASTA PRONTO!</a>
-              </div>
+              <div className={style.footerDiv}></div>
+              <div className={style.footerDiv}></div>
+              <div className={style.footerDiv}></div>
+              <div className={style.footerDiv}></div>
             </footer>
           </div>
         </div>
